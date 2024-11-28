@@ -53,7 +53,7 @@ for(int i=0;i<n;i++)
 
 int main()
 {
-    srand(time(NULL));
+srand(time(NULL));
 printf("Введите число элементов массива \n");
 scanf("%i", &n);
 int A[n];
@@ -61,4 +61,5 @@ fill(A);
 findmaxsum(A);
 findmintwo(A);
 output(A);
+return 0;
 }
